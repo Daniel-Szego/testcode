@@ -13,6 +13,8 @@ contract HelloWorld {
         helloSzam = 2;
     }
 
+    // setSzam(uint)
+
     function setSzam(uint _newSzam) public {
         helloSzam = _newSzam;
     }
